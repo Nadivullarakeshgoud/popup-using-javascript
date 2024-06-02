@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-submit{
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0,0,0.3);
+    border-radius:20px;
+
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.card-content p {
+    margin: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popup-continer{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background:rgba(0, 0,0,0.3);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popup-none{
+    display: none;
+}
+
+
+.popup-card{
+    width: 350px;
+    background:#ebf4f1;
+    padding: 20px;
+    border-radius:20px;
+
+}
+.card-header{
+    margin-bottom: 20px;
+}
+.card2-content{
+    margin-bottom: 20px;
+}
+.card2-content label{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+.card2-content input{
+    width: 100%;
+    border:none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 10px;
+    color: grey;
+}
+
+.card-action button{
+
+    font-size: 20px;
+    background: linear-gradient(#eeaeca,#94bbe9);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
